@@ -9,7 +9,8 @@ permissions:
   contents: read
 
 env:
-  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/winter-arc-app
+  env:
+  IMAGE_NAME: hrishav798/winter-arc-app
 
 jobs:
   build-test-scan:
